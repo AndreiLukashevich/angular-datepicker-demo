@@ -35,7 +35,7 @@ export class DatePickerComponent implements OnInit {
   }
 
   goToPickers() {
-    this.router.navigate(["pickers"]);
+    this.router.navigate(["home"]);
   }
 
 }
