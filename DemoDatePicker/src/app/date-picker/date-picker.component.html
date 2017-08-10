@@ -1,0 +1,17 @@
+<p>
+  time-picker works!
+</p>
+
+<hr />
+
+ <div class="container">
+  <form novalidate [formGroup]="testForm">
+    <div class="form-group">
+      <label for="date">Date</label>
+      <input id="date" formControlName="date" class="form-control" [(ngModel)]="date" [dpDayPicker]="config" theme="dp-material"
+        mode="day" />
+    </div>
+  </form>
+</div> 
+
+<button class="btn btn-danger" (click)="goToPickers()">Go Back</button>
